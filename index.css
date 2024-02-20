@@ -139,7 +139,7 @@ nav ul li a:hover {
   .grid-container {
     grid-gap: 50px;
 
-    grid-template-columns: repeat(1, 1fr);
+    grid-template-columns: 1fr;
   }
   .grid-item {
     min-width: 500px;
