@@ -113,7 +113,7 @@ nav ul li a:hover {
   height: 100vh;
   display: flex;
   justify-content: space-around;
-  padding: 100px 500px;
+  padding: 100px 200px;
 }
 
 .txt-container p {
@@ -139,7 +139,7 @@ nav ul li a:hover {
   .grid-container {
     grid-gap: 50px;
 
-    grid-template-columns: 1fr;
+    grid-template-columns: repeat(1, 1fr);
   }
   .grid-item {
     min-width: 500px;
@@ -162,7 +162,7 @@ nav ul li a:hover {
     font-size: 100px;
   }
   .grid-container {
-    grid-template-columns:  1fr;
+    grid-template-columns: repeat(2, 1fr);
   }
   @media (min-width: 1024.02px) {
   }
