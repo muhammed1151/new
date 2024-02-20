@@ -103,8 +103,6 @@ nav ul li a:hover {
   flex-direction: column;
   justify-content: space-between;
   border-radius: 10px;
-
-  
 }
 .grid-item:hover {
   scale: 1.01;
@@ -115,7 +113,7 @@ nav ul li a:hover {
   height: 100vh;
   display: flex;
   justify-content: space-around;
-  padding: 100px 100px;
+  padding: 100px 200px;
 }
 
 .txt-container p {
@@ -139,13 +137,13 @@ nav ul li a:hover {
     display: none;
   }
   .grid-container {
-    grid-gap: 5rem;
-    padding: 20px;
+    grid-gap: 50px;
+    /* padding: 20px; */
     grid-template-columns: repeat(2, 1fr);
   }
   .grid-item {
-    max-width: 238px;
-    max-height: 500px;
+    min-width: 300px;
+    min-height: 200px;
   }
 }
 @media (min-width: 750.02px) and (max-width: 1024px) {
