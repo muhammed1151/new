@@ -138,12 +138,12 @@ nav ul li a:hover {
   }
   .grid-container {
     grid-gap: 50px;
-    /* padding: 20px; */
-    grid-template-columns: repeat(2, 1fr);
+
+    grid-template-columns: repeat(1, 1fr);
   }
   .grid-item {
-    min-width: 300px;
-    min-height: 200px;
+    min-width: 500px;
+    min-height: 400px;
   }
 }
 @media (min-width: 750.02px) and (max-width: 1024px) {
